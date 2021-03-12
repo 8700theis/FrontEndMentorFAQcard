@@ -1,0 +1,23 @@
+{
+    "name": "FrontEndMentorFAQcard",
+    "version": "1.0.0",
+    "description": "FAQ card",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -o css scss -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/8700theis/FrontEndMentorFAQcard.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/8700theis/FrontEndMentorFAQcard/issues"
+    },
+    "homepage": "https://github.com/8700theis/FrontEndMentorFAQcard#readme",
+    "dependencies": {
+        "node-sass": "^5.0.0"
+    }
+}
