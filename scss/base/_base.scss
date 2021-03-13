@@ -8,3 +8,10 @@ html {
     // 10 / 16 = 0.625 * 100 = 62.5% = 10px
     font-size: 62.5%;
 }
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(175, 103, 233, 1) 0%, rgba(101, 101, 231, 1) 100%);
+}
