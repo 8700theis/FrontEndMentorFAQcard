@@ -60,3 +60,8 @@ body {
       .content-container-left .iluBox img {
         width: 100%;
         height: auto; }
+  .content-container-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 5rem; }

@@ -53,4 +53,11 @@
             }
         }
     }
+    &-container-right {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 5rem;
+        .heading {}
+    }
 }
