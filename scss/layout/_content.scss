@@ -58,6 +58,50 @@
         justify-content: space-evenly;
         flex-direction: column;
         padding: 5rem;
-        .heading {}
+        .heading {
+            font-size: 3.5rem;
+            color: #1d1e35;
+        }
+        &-faq {
+            position: relative;
+            border-bottom: 1px solid lighten(#4a4b5e, 40%);
+            ;
+            &-arrowImg {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                cursor: pointer;
+                width: 12px;
+            }
+            &-heading {
+                color: #4a4b5e;
+            }
+            &-text {
+                font-size: 1.3rem;
+                color: #4a4b5e;
+                margin: 1rem 0;
+                height: 0;
+                opacity: 0;
+                /*                transition: all 0.3s; */
+            }
+        }
     }
+}
+
+.textColor {
+    color: #1d1e35;
+}
+
+.rotateArrow {
+    transform: rotate(180deg);
+}
+
+.active {
+    height: 100%;
+    opacity: 1;
+}
+
+.hide {
+    height: 0;
+    opacity: 0;
 }
